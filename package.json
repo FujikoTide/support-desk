@@ -1,0 +1,20 @@
+{
+  "name": "support-desk",
+  "version": "1.0.0",
+  "description": "Support ticket app",
+  "license": "MIT",
+  "author": "Me",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node --watch backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}
